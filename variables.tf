@@ -46,10 +46,10 @@ variable "Subnet-Private-AzC-CIDR" {
   description = "the cidr of the 2C-Private Subnet"
 }
 variable "key_name" {
-  default     = "KeyPair-Ohio"
+  default     = "demokeyppair"
   description = "the ssh key to use in the EC2 machines"
 }
 
-variable "DnsZoneName" {
+/*variable "DnsZoneName" {
   default = "mydemodnszone.com"
-}
+}*/
